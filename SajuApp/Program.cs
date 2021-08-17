@@ -428,6 +428,92 @@ namespace SajuApp
             return result;
         }
 
+        //2021-08-17 (지장간 출력 함수, everyBranch = 지지 숫자 열거형 / 0=여기 / 1=중기 / 2=정기)
+        public static int StemsInBranch(int everyBranch, int order)
+        {
+            int result = 0;
+            
+            System.Collections.Generic.List<int> menInBranch = new System.Collections.Generic.List<int>();
+
+            switch (everyBranch) 
+            {
+                case 1:
+                    menInBranch.Add(9);
+                    menInBranch.Add(0);
+                    menInBranch.Add(10);
+                    result = menInBranch[order];
+                    break;
+                case 2:
+                    menInBranch.Add(10);
+                    menInBranch.Add(8);
+                    menInBranch.Add(6);
+                    result = menInBranch[order];
+                    break;
+                case 3:
+                    menInBranch.Add(5);
+                    menInBranch.Add(3);
+                    menInBranch.Add(1);
+                    result = menInBranch[order];
+                    break;
+                case 4:
+                    menInBranch.Add(1);
+                    menInBranch.Add(0);
+                    menInBranch.Add(2);
+                    result = menInBranch[order];
+                    break;
+                case 5:
+                    menInBranch.Add(2);
+                    menInBranch.Add(10);
+                    menInBranch.Add(5);
+                    result = menInBranch[order];
+                    break;
+                case 6:
+                    menInBranch.Add(5);
+                    menInBranch.Add(7);
+                    menInBranch.Add(3);
+                    result = menInBranch[order];
+                    break;
+                case 7:
+                    menInBranch.Add(3);
+                    menInBranch.Add(6);
+                    menInBranch.Add(4);
+                    result = menInBranch[order];
+                    break;
+                case 8:
+                    menInBranch.Add(4);
+                    menInBranch.Add(2);
+                    menInBranch.Add(6);
+                    result = menInBranch[order];
+                    break;
+                case 9:
+                    menInBranch.Add(5);
+                    menInBranch.Add(9);
+                    menInBranch.Add(7);
+                    result = menInBranch[order];
+                    break;
+                case 10:
+                    menInBranch.Add(7);
+                    menInBranch.Add(0);
+                    menInBranch.Add(8);
+                    result = menInBranch[order];
+                    break;
+                case 11:
+                    menInBranch.Add(8);
+                    menInBranch.Add(4);
+                    menInBranch.Add(5);
+                    result = menInBranch[order];
+                    break;
+                case 12:
+                    menInBranch.Add(5);
+                    menInBranch.Add(1);
+                    menInBranch.Add(9);
+                    result = menInBranch[order];
+                    break;
+
+            }
+
+            return result;
+        }
 
         public static bool Quit()
         {
@@ -457,6 +543,9 @@ namespace SajuApp
         {
             // 변수값
             bool quitProgram = false;
+            int soul = 0; // 월령 (십성) 2021-08-17
+            int body = 0; // 체: 일간 (천간) 2021-08-17
+            int use = 0; // 용: 월지 (지지) 2021-08-17
 
             //절기별 시작 일자 리스트
             System.Collections.Generic.List<int> start = new System.Collections.Generic.List<int>(new int[] { 5, 4, 6, 6, 5, 6, 7, 7, 8, 8, 7, 7 });
@@ -527,11 +616,7 @@ namespace SajuApp
                 Console.WriteLine((Sex)Convert.ToInt32(birthSex) + "命 " + birthYear + "년 양력 " + birthMonth + "월 " + birthDay + "일 " + birthHour + "시 " + birthMin + "분 " + "\n");
                 Console.WriteLine("=================<사주팔자>=================\n");
                 Console.WriteLine("시 " + "일 " + "월 " + "년 " + "\n");
-
-                //2021-08-16
-                int body = 0;
-                int use = 0;
-
+                
                 //사주팔자 천간 부분 출력
                 for (int i = 0; i < 4; i++)
                 {
@@ -620,9 +705,6 @@ namespace SajuApp
                 Console.ForegroundColor = (ConsoleColor)15;
                 Console.WriteLine();
 
-                //2021-08-16
-                int soul = 0;
-
                 // 지지 부분 십성 출력
                 for(int x=0; x<4; x++)
                 {
@@ -650,7 +732,7 @@ namespace SajuApp
                 Console.Write("격: ");
                 Console.Write((Stars)Convert.ToInt32(soul) + " 格\n");
                 Console.Write((Branch)Convert.ToInt32(use) + "월의 " + (Stem)Convert.ToInt32(body) + (Five)Convert.ToInt32(stemFive[1]) + "\n");
-                
+                Console.Write((Stem)Convert.ToInt32(StemsInBranch(use, 0)) + " " + (Stem)Convert.ToInt32(StemsInBranch(use, 1)) + " " + (Stem)Convert.ToInt32(StemsInBranch(use, 2)) + "\n"); // 2021-08-17 추가
                 Console.WriteLine("============================================\n");
                 
                 //프로그램 종료
