@@ -1,0 +1,40 @@
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.exe
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.deps.json
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.json
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.dev.json
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.dll
+D:\NK\Study_Csharp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.pdb
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csprojAssemblyReference.cache
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfoInputs.cache
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfo.cs
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csproj.CoreCompileInputs.cache
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.dll
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.pdb
+D:\NK\Study_Csharp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.genruntimeconfig.cache
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.exe
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.deps.json
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.json
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.dev.json
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.dll
+D:\C sharp Study\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.pdb
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csprojAssemblyReference.cache
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfoInputs.cache
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfo.cs
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csproj.CoreCompileInputs.cache
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.dll
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.pdb
+D:\C sharp Study\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.genruntimeconfig.cache
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.exe
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.deps.json
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.json
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.runtimeconfig.dev.json
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.dll
+D:\Study_Cpp\SajuApp\SajuApp\bin\Debug\netcoreapp3.1\SajuApp.pdb
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csproj.AssemblyReference.cache
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfoInputs.cache
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.AssemblyInfo.cs
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.csproj.CoreCompileInputs.cache
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.dll
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.pdb
+D:\Study_Cpp\SajuApp\SajuApp\obj\Debug\netcoreapp3.1\SajuApp.genruntimeconfig.cache
